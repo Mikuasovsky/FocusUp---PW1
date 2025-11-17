@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "name": "Miguel Silva",
+      "email": "miguel@focusup.pt",
+      "password": "123",
+      "xp": 200,
+      "id": 1
+    }
+  ],
+  "subjects": [],
+  "studySessions": []
+}

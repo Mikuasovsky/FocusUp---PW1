@@ -1,11 +1,30 @@
-<script setup></script>
-
+<!-- src/App.vue -->
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div id="app">
+    <NavBar />
+    <router-view />
+    <FooterBar />
+  </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import NavBar from '@/components/NavBar.vue'
+import FooterBar from '@/components/FooterBar.vue'
+</script>
+
+<style>
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #0f172a;   
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;      
+}
+</style>
