@@ -1,6 +1,6 @@
 <!-- src/views/RegisterView.vue -->
 <template>
-  <div>
+  <div class="focusuplogin">
     <h1 class="title">FocusUp</h1>
     <div class="register-container">
     <h1>Criar Conta</h1>
@@ -124,5 +124,8 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 160px;
+}
+.focusuplogin{
+  margin-bottom: 120px;
 }
 </style>

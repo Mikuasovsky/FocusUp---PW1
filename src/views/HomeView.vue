@@ -24,7 +24,7 @@ import { useRouter } from 'vue-router'
 const userStore = useUserStore()
 const router = useRouter()
 
-// Redireciona automaticamente se já estiver logado (melhor UX)
+// Redireciona automaticamente se já estiver logado
 onMounted(() => {
   if (userStore.isLoggedIn) {
     router.push('/dashboard')
@@ -34,13 +34,13 @@ onMounted(() => {
 
 <style scoped>
 .home-container {
-  min-height: 90vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding-bottom: 6.9rem;
   background:  #0f172a;
 }
 

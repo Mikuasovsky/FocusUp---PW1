@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="focusuplogin">
     <h1 class="title">FocusUp</h1>
     <div class="form-container">
     <h1>Login</h1>
@@ -86,4 +86,7 @@ h1{
   font-size: 2rem;
 }
 
+.focusuplogin{
+  margin-bottom: 140px;
+}
 </style>
