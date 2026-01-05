@@ -4,8 +4,22 @@
       "name": "Miguel Silva",
       "email": "miguel@focusup.pt",
       "password": "123",
-      "xp": 600,
+      "xp": 800,
       "id": 1
+    },
+    {
+      "name": "Ricardo Viana",
+      "email": "vian@focusup.pt",
+      "password": "123",
+      "xp": 0,
+      "id": 2
+    },
+    {
+      "name": "Ze Pedro",
+      "email": "zepedro@gmail.com",
+      "password": "123",
+      "xp": 0,
+      "id": 3
     }
   ],
   "subjects": [],
