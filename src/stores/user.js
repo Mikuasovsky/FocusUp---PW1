@@ -13,7 +13,6 @@ export const useUserStore = defineStore('user', {
 
   actions: {
     async register(userData) {
-      // Verifica se email já existe
       const check = await fetch(`http://localhost:3001/users?email=${userData.email}`)
       const existing = await check.json()
       if (existing.length > 0) throw new Error('Este email já está registado!')
@@ -85,7 +84,6 @@ export const useUserStore = defineStore('user', {
         }, 100)
       }
 
-  // Guarda no json-server
       await fetch(`http://localhost:3001/users/${this.currentUser.id}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
